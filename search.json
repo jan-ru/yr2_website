@@ -11,12 +11,12 @@
     "href": "page_01_slr.html",
     "title": "Introduction",
     "section": "",
-    "text": "Introduction\nrelative reference to slr"
+    "text": "Introduction"
   },
   {
     "objectID": "page_03_scripts.html",
     "href": "page_03_scripts.html",
-    "title": "Vlerick Dba",
+    "title": "BPM4RC",
     "section": "",
     "text": "gebruik includes die verwijzen naar ./scripts/… ./scripts/…"
   },
