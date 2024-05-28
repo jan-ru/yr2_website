@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jan-ru.github.io/yr2_website/page_02_abstracts.html</loc>
-    <lastmod>2024-05-28T18:18:08.106Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jan-ru.github.io/yr2_website/index.html</loc>
+    <loc>https://jan-ru.github.io/yr2_website/about.html</loc>
     <lastmod>2024-05-28T15:18:33.539Z</lastmod>
   </url>
   <url>
-    <loc>https://jan-ru.github.io/yr2_website/about.html</loc>
+    <loc>https://jan-ru.github.io/yr2_website/index.html</loc>
     <lastmod>2024-05-28T15:18:33.539Z</lastmod>
   </url>
 </urlset>
