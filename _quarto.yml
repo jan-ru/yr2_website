@@ -9,11 +9,11 @@ website:
       - href: index.qmd
         text: Home
       - text: "SLR"
-        href: https://github.com/jan-ru/yr2_slr/index.html
+        href: https://jan-ru.github.io/yr2_slr/index.html
       - text: "Abstracts"
-        href: https://github.com/jan-ru/yr2_abstracts/index.html
+        href: https://jan-ru.github.io/yr2_abstracts/index.html
       - text: "Scripts"
-        href: https://github.com/jan-ru/yr2_interviews/index.html
+        href: https://jan-ru.github.io/yr2_interviews/index.html
 #      - text: "Slides"
 #        href: about.qmd#slides          
 
