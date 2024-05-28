@@ -4,7 +4,7 @@
     "href": "page_02_abstracts.html",
     "title": "BPM4RC",
     "section": "",
-    "text": "&lt;div class=\"container\"&gt;\n    &lt;div class=\"element\"&gt;here it goes&lt;/div&gt;\n    &lt;div class=\"h_iframe\"&gt;\n        &lt;iframe  src=\"//www.youtube.com/embed/9KunP3sZyI0\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n    &lt;/div&gt;\n&lt;/div&gt;"
+    "text": "&lt;div class=\"container\"&gt;\n    &lt;div class=\"element\"&gt;here it goes&lt;/div&gt;\n    &lt;div class=\"h_iframe\"&gt;\n        &lt;iframe  src=\"https://jan-ru.github.io/yr2_abstracts\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n    &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "index.html",
