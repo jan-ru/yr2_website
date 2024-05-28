@@ -1,5 +1,0 @@
-# Introduction {#chap-intro}
-
-```{=html}
-<iframe src="https://jan-ru.github.io/yr2_slr/" title="SLR"></iframe>
-```

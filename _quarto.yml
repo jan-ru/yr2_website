@@ -4,15 +4,16 @@ project:
 website:
   title: "BPM4RC"
   navbar:
+    search: false
     left:
       - href: index.qmd
         text: Home
       - text: "SLR"
-        href: page_01_slr.qmd
+        href: books/slr/index.html
       - text: "Abstracts"
         href: page_02_abstracts.qmd
-#      - text: "Scripts"
-#        href: ./scripts/index.html
+      - text: "Scripts"
+        href: ./index2.html
 #      - text: "Slides"
 #        href: about.qmd#slides          
 
