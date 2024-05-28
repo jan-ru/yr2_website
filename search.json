@@ -2,16 +2,16 @@
   {
     "objectID": "page_02_abstracts.html",
     "href": "page_02_abstracts.html",
-    "title": "Vlerick Dba",
+    "title": "Introduction",
     "section": "",
-    "text": "gebruik includes ./abstracts/… ./abstracts/… ./abstracts/…"
+    "text": "Introduction\nrelative reference tot abstracts"
   },
   {
     "objectID": "page_01_slr.html",
     "href": "page_01_slr.html",
     "title": "Introduction",
     "section": "",
-    "text": "Introduction"
+    "text": "Introduction\nrelative reference to slr"
   },
   {
     "objectID": "page_03_scripts.html",
