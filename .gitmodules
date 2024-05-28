@@ -1,0 +1,4 @@
+[submodule "books/slr"]
+	path = books/slr
+	url = https://github.com/jan-ru/yr2_slr.git
+	branch = gh-pages
