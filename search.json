@@ -2,23 +2,9 @@
   {
     "objectID": "page_02_abstracts.html",
     "href": "page_02_abstracts.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Introduction\nrelative reference tot abstracts"
-  },
-  {
-    "objectID": "page_01_slr.html",
-    "href": "page_01_slr.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Introduction"
-  },
-  {
-    "objectID": "page_03_scripts.html",
-    "href": "page_03_scripts.html",
     "title": "BPM4RC",
     "section": "",
-    "text": "gebruik includes die verwijzen naar ./scripts/… ./scripts/…"
+    "text": "’’’{html}\n\n&lt;div class=\"element\"&gt;here it goes&lt;/div&gt;\n&lt;div class=\"h_iframe\"&gt;\n    &lt;iframe  src=\"//www.youtube.com/embed/9KunP3sZyI0\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;\n&lt;/div&gt;\n\n’’’"
   },
   {
     "objectID": "index.html",
