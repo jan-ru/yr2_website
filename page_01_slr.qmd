@@ -1,3 +1,5 @@
 # Introduction {#chap-intro}
 
-[relative reference to slr](https://jan-ru.github.io/yr2_slr/)
+```{=html}
+<iframe src="https://jan-ru.github.io/yr2_slr/" title="SLR"></iframe>
+```
