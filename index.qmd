@@ -1,7 +1,9 @@
 ---
-title: "Vlerick Dba"
+title: ""
 ---
 
-This is a Quarto website.
+:::::: h2
+`Work in progress`
+::::::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+SLR and Abstracts shall work, Scripts not yet.
