@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.31">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BPM4RC</title>
+<title>BPM4RC – index2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -106,22 +106,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-
-<!-- in head -->
-<title>Hello World</title>
-
-<!-- required viewer styles -->
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@17.8.1/dist/assets/bpmn-js.css">
-
-<!-- viewer distro (with pan and zoom) -->
-<script src="https://unpkg.com/bpmn-js@17.8.1/dist/bpmn-navigated-viewer.development.js"></script>
-
-<!-- needed for this example only -->
-<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
-
-
-<!-- in head -->
-
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -196,60 +180,6 @@ ul.task-list li input[type="checkbox"] {
     </script>
 -->
 
-<!-- in body -->
-
-<div id="canvas"></div>
-
-<script>
-
-  var diagramUrl = 'https://cdn.statically.io/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
-
-  // viewer instance
-  var bpmnViewer = new BpmnJS({
-    container: '#canvas'
-  });
-
-  /**
-   * Open diagram in our viewer instance.
-   * @param {String} bpmnXML diagram to display
-   */
-  async function openDiagram(bpmnXML) {
-
-    // import diagram
-    try {
-
-      await bpmnViewer.importXML(bpmnXML);
-
-      // access viewer components
-      var canvas = bpmnViewer.get('canvas');
-      var overlays = bpmnViewer.get('overlays');
-
-      // zoom to fit full viewport
-      canvas.zoom('fit-viewport');
-
-      // attach an overlay to a node
-      overlays.add('SCAN_OK', 'note', {
-        position: {
-          bottom: 0,
-          right: 0
-        },
-        html: '<div class="diagram-note">Mixed up the labels?</div>'
-      });
-
-      // add marker
-      canvas.addMarker('SCAN_OK', 'needs-discussion');
-    } catch (err) {
-
-      console.error('could not import BPMN 2.0 diagram', err);
-    }
-  }
-
-
-  // load external diagram file via AJAX and open it
-  $.get(diagramUrl, openDiagram, 'text');
-</script>
-
-<!-- in body -->
 
 
 </main> <!-- /main -->
