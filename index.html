@@ -124,6 +124,61 @@ ul.task-list li input[type="checkbox"] {
 <p><code>Work in progress</code></p>
 </div>
 <p>SLR and Abstracts shall work, Scripts not yet.</p>
+<div id="canvas">
+
+</div>
+<pre><code>&lt;script&gt;
+
+  var diagramUrl = 'https://cdn.statically.io/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
+
+  // viewer instance
+  var bpmnViewer = new BpmnJS({
+    container: '#canvas'
+  });
+
+
+  /**
+   * Open diagram in our viewer instance.
+   *
+   * @param {String} bpmnXML diagram to display
+   */
+  async function openDiagram(bpmnXML) {
+
+    // import diagram
+    try {
+
+      await bpmnViewer.importXML(bpmnXML);
+
+      // access viewer components
+      var canvas = bpmnViewer.get('canvas');
+      var overlays = bpmnViewer.get('overlays');
+
+
+      // zoom to fit full viewport
+      canvas.zoom('fit-viewport');
+
+      // attach an overlay to a node
+      overlays.add('SCAN_OK', 'note', {
+        position: {
+          bottom: 0,
+          right: 0
+        },
+        html: '&lt;div class="diagram-note"&gt;Mixed up the labels?&lt;/div&gt;'
+      });
+
+      // add marker
+      canvas.addMarker('SCAN_OK', 'needs-discussion');
+    } catch (err) {
+
+      console.error('could not import BPMN 2.0 diagram', err);
+    }
+  }
+
+
+  // load external diagram file via AJAX and open it
+  $.get(diagramUrl, openDiagram, 'text');
+&lt;/script&gt;</code></pre>
+<p>````</p>
 
 
 

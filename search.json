@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "BPM4RC",
     "section": "",
-    "text": "Work in progress\n\nSLR and Abstracts shall work, Scripts not yet."
+    "text": "Work in progress\n\nSLR and Abstracts shall work, Scripts not yet.\n\n\n\n&lt;script&gt;\n\n  var diagramUrl = 'https://cdn.statically.io/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';\n\n  // viewer instance\n  var bpmnViewer = new BpmnJS({\n    container: '#canvas'\n  });\n\n\n  /**\n   * Open diagram in our viewer instance.\n   *\n   * @param {String} bpmnXML diagram to display\n   */\n  async function openDiagram(bpmnXML) {\n\n    // import diagram\n    try {\n\n      await bpmnViewer.importXML(bpmnXML);\n\n      // access viewer components\n      var canvas = bpmnViewer.get('canvas');\n      var overlays = bpmnViewer.get('overlays');\n\n\n      // zoom to fit full viewport\n      canvas.zoom('fit-viewport');\n\n      // attach an overlay to a node\n      overlays.add('SCAN_OK', 'note', {\n        position: {\n          bottom: 0,\n          right: 0\n        },\n        html: '&lt;div class=\"diagram-note\"&gt;Mixed up the labels?&lt;/div&gt;'\n      });\n\n      // add marker\n      canvas.addMarker('SCAN_OK', 'needs-discussion');\n    } catch (err) {\n\n      console.error('could not import BPMN 2.0 diagram', err);\n    }\n  }\n\n\n  // load external diagram file via AJAX and open it\n  $.get(diagramUrl, openDiagram, 'text');\n&lt;/script&gt;\n````"
   }
 ]
