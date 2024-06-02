@@ -8,7 +8,7 @@ title: ""
 
 SLR and Abstracts shall work, Scripts not yet.
 
-```{html}
+<!--
   <div id="canvas"></div>
 
     <script>
@@ -62,4 +62,4 @@ SLR and Abstracts shall work, Scripts not yet.
       // load external diagram file via AJAX and open it
       $.get(diagramUrl, openDiagram, 'text');
     </script>
-````
+-->
