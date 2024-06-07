@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persistent Horizontal Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding-top: 50px; /* Adjust this padding if the navbar height changes */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#home">BPM4RC</a>
+        <a href="https://jan-ru.github.io/yr2_slr/">Review</a>
+        <a href="https://jan-ru.github.io/yr2_abstracts/">Abstracts</a>
+        <a href="https://jan-ru.github.io/yr2_software/">Scripts</a>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple example of a persistent horizontal menu using HTML5 and CSS.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac libero eget erat ultrices commodo. Proin gravida interdum ipsum, eu ultricies purus fermentum a. Integer id nisl a elit dictum malesuada. Cras tristique felis nec quam ullamcorper, ac varius mauris feugiat. Suspendisse potenti. Nulla facilisi. Fusce id gravida magna. Aliquam erat volutpat. Proin et libero ac ante mollis bibendum et at elit. Nulla nec vehicula urna. Aliquam in diam a dui ullamcorper feugiat nec id velit. Donec vestibulum quam nec semper ullamcorper. Vivamus vitae odio a tortor fermentum cursus non a lorem. In at sagittis risus. Vivamus semper risus id ex cursus pretium.</p>
+        <!-- Add more content here to demonstrate scrolling -->
+    </div>
+
+</body>
+</html>
