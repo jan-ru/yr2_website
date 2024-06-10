@@ -5,3 +5,13 @@ title: ""
 :::::: h2
 `Work in progress`
 ::::::
+
+Review contains the literature review.  
+
+Articles presently links to Abstracts. In a feature version Articles will contain the full text articles used (to the extent that those are open access).  
+
+Abstracts contains a collections of abstracts (and keywords) of 38 items identified via the literature searches.  
+
+Searches presently links to Abstracts. In a future version Searches will contain the search strings and the results of the performed database searches.  
+
+Scripts contains the scripts used for merging the bibliographic data from the different sources.  

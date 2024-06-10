@@ -6,22 +6,19 @@ website:
   navbar:
     search: false
     left:
-#      - href: index.qmd
-#        text: Home
       - text: "Review"
         href: https://jan-ru.github.io/yr2_slr
+      - text: "Articles"
+        href: https://jan-ru.github.io/yr2_abstract
       - text: "Abstracts"
+        href: https://jan-ru.github.io/yr2_abstracts
+      - text: "Searches"
         href: https://jan-ru.github.io/yr2_abstracts
       - text: "Scripts"
         href: https://jan-ru.github.io/yr2_software
-#      - text: "Slides"
-#        href: about.qmd#slides          
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
