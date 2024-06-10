@@ -4,7 +4,7 @@
     "href": "index2.html",
     "title": "BPM4RC",
     "section": "",
-    "text": "Work in progress"
+    "text": "Work in progress\n\nReview contains the literature review.\nArticles presently links to Abstracts. In a feature version Articles will contain the full text articles used (to the extent that those are open access).\nAbstracts contains a collections of abstracts (and keywords) of 38 items identified via the literature searches.\nSearches presently links to Abstracts. In a future version Searches will contain the search strings and the results of the performed database searches.\nScripts contains the scripts used for merging the bibliographic data from the different sources."
   },
   {
     "objectID": "about.html",
