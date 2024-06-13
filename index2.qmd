@@ -8,10 +8,29 @@ title: ""
 
 Review contains the literature review.  
 
-Articles presently links to Abstracts. In a feature version Articles will contain the full text articles used (to the extent that those are open access).  
+Articles presently links to Abstracts. In a future version Articles will contain the full text articles used (to the extent that those are open access).  
 
 Abstracts contains a collections of abstracts (and keywords) of 38 items identified via the literature searches.  
 
-Searches presently links to Abstracts. In a future version Searches will contain the search strings and the results of the performed database searches.  
+Searches contains the databases searched, the results of the performed database searches. The search strings are still to be added. 
 
-Scripts contains the scripts used for merging the bibliographic data from the different sources.  
+Scripts contains the scripts used for merging the bibliographic data from the different sources.
+
+<!-- update the website:
+
+Separate note: 
+explain what, how, why (separation of concerns). Also publish version (March '24) under review v0.3
+Year 1 deliverables also.
+Add TIL in menu for (mini) blog posts
+
+1. make changes in index2.qmd
+2. quarto render . --to html
+3. edit _site/index.html (take changes from _site/index2.html)
+4. leave _site/index3.html, it's a htmx styled (mini)menu, not yet used
+5. quarto preview
+6. if ok commit changes (to github)
+7. quarto publish gh-pages y
+
+At some point all sites will be below the website directory. All will share a ".bib" file and a "_variables.yml" file
+
+-->
